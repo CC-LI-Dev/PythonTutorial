@@ -1,0 +1,84 @@
+<div class="news-content">
+                    <ul>
+
+                                                    <li class="item animated fadeInUp">
+                                                                                                    <a class="a-title" href="https://www.deepin.org/en/2021/03/31/deepin-20-2-beautiful-and-wonderful/"><img class="img" src="http://www.deepin.org/wp-content/uploads/2021/03/en_s.jpg" alt="deepin 20.2 - Beautiful and Wonderful"></a>
+                                
+                                <div class="text">
+                                    <div class="title">
+                                        <p><a title="deepin 20.2 - Beautiful and Wonderful" class="a-title" href="https://www.deepin.org/en/2021/03/31/deepin-20-2-beautiful-and-wonderful/">deepin 20.2 - Beautiful and Wonderful</a>
+                                        </p>
+                                        <span>2021-03-31</span>
+                                    </div>
+                                    <p class="main">
+                                        <a class="a-content" href="https://www.deepin.org/en/2021/03/31/deepin-20-2-beautiful-and-wonderful/">Besides the updates of deepin&nbsp;applications, deepin 20.2 comes with optimized UI and user experiences, and some new features. The kernels are upgraded to Kernel 5.10 (LTS) and Kernel 5.11 (Stable), a</a>
+                                    </p>
+                                </div>
+                            </li>
+                                                    <li class="item animated fadeInUp">
+                                                                                                    <a class="a-title" href="https://www.deepin.org/en/2021/03/16/instructions-of-dual-kernels/"><img class="img" src="http://www.deepin.org/wp-content/uploads/2021/03/en_s.png" alt="deepin -- Instructions of Dual Kernels"></a>
+                                
+                                <div class="text">
+                                    <div class="title">
+                                        <p><a title="deepin -- Instructions of Dual Kernels" class="a-title" href="https://www.deepin.org/en/2021/03/16/instructions-of-dual-kernels/">deepin -- Instructions of Dual Kernels</a>
+                                        </p>
+                                        <span>2021-03-16</span>
+                                    </div>
+                                    <p class="main">
+                                        <a class="a-content" href="https://www.deepin.org/en/2021/03/16/instructions-of-dual-kernels/">Deepin integrates dual kernel versions: Stable and LTS. The Stable one is a higher version for users to experience the new features. The LTS one is a long-term support version.
+
+How to choose the ...</a>
+                                    </p>
+                                </div>
+                            </li>
+                                                    <li class="item animated fadeInUp">
+                                                                                                    <a class="a-title" href="https://www.deepin.org/en/2021/02/25/deepin-system-updates-2021-2-25/"><img class="img" src="http://www.deepin.org/wp-content/uploads/2021/02/en_s-2.jpg" alt="Deepin System Updates (2021.02.25）"></a>
+                                
+                                <div class="text">
+                                    <div class="title">
+                                        <p><a title="Deepin System Updates (2021.02.25）" class="a-title" href="https://www.deepin.org/en/2021/02/25/deepin-system-updates-2021-2-25/">Deepin System Updates (2021.02.25）</a>
+                                        </p>
+                                        <span>2021-02-25</span>
+                                    </div>
+                                    <p class="main">
+                                        <a class="a-content" href="https://www.deepin.org/en/2021/02/25/deepin-system-updates-2021-2-25/">Deepin&nbsp;System&nbsp;Update&nbsp;to&nbsp;11031.003(build)&nbsp;for&nbsp;Improved&nbsp;System&nbsp;Security.
+&nbsp;
+Changelog
+System security
+Fixed&nbsp;security vulnerabilities. 
+No.: CVE-2019-25013、CVE-2020-0256、CVE-2020-14409、CVE-202</a>
+                                    </p>
+                                </div>
+                            </li>
+                                                    <li class="item animated fadeInUp">
+                                                                                                    <a class="a-title" href="https://www.deepin.org/en/2021/02/03/deepin-system-updates-2021-2-3/"><img class="img" src="http://www.deepin.org/wp-content/uploads/2021/02/en_s-1.jpg" alt="Deepin System Updates (2021.02.03）"></a>
+                                
+                                <div class="text">
+                                    <div class="title">
+                                        <p><a title="Deepin System Updates (2021.02.03）" class="a-title" href="https://www.deepin.org/en/2021/02/03/deepin-system-updates-2021-2-3/">Deepin System Updates (2021.02.03）</a>
+                                        </p>
+                                        <span>2021-02-03</span>
+                                    </div>
+                                    <p class="main">
+                                        <a class="a-content" href="https://www.deepin.org/en/2021/02/03/deepin-system-updates-2021-2-3/">Deepin is updated to 11031.002 (build) with the new kernel 5.10 (Stable), upgraded Debian 10.7 repository, and enhanced system stability and compatibility. What is more, the system security and ha...</a>
+                                    </p>
+                                </div>
+                            </li>
+                                                    <li class="item animated fadeInUp">
+                                                                                                    <a class="a-title" href="https://www.deepin.org/en/2021/02/03/deepin2020/"><img class="img" src="http://www.deepin.org/wp-content/uploads/2021/02/en_s.jpg" alt="deepin, 2020 in Retrospect"></a>
+                                
+                                <div class="text">
+                                    <div class="title">
+                                        <p><a title="deepin, 2020 in Retrospect" class="a-title" href="https://www.deepin.org/en/2021/02/03/deepin2020/">deepin, 2020 in Retrospect</a>
+                                        </p>
+                                        <span>2021-02-03</span>
+                                    </div>
+                                    <p class="main">
+                                        <a class="a-content" href="https://www.deepin.org/en/2021/02/03/deepin2020/">2020&nbsp;is a year witnessing unprecedented challenges brought by the sudden strike of Covid-19. Despite a formidable yet imperative period of lockdown, we have joined hands with solidarity and forged a</a>
+                                    </p>
+                                </div>
+                            </li>
+                        
+
+                    </ul>
+                </div>
