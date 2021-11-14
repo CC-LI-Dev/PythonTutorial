@@ -15,9 +15,6 @@ heightrocketangfin = sin(heightrad)*diststart
 heightrocketangfin = round(heightrocketangfin, 2)
 # calculation with pressure
 
-#heightrocketpres1 = (log(pressurestart)*1013.25)/(log(1013.25)*1.29*9.81)
-#heightrocketpres2 = (log(pressureend)*1013.25)/(log(1013.25)*1.29*9.81)
-
 heightrocketpres1 = -((log(pressurestart/1013.25)*1013.25)/1.29*9.81)
 heightrocketpres2 = -((log(pressureend/1013.25)*1013.25)/1.29*9.81)
 print(heightrocketpres1)
