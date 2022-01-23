@@ -1,17 +1,16 @@
-# year input
-year = int(input("Geben sie ein Jahr ein:"))
-
-# calculation
-
-if year % 4 == 0 and year > 1582:
-    if year % 100 == 0 and year % 400 == 0:
-        print(year, "ist ein Schaltjahr.")
-    elif year % 100 == 0 and year % 400 != 0:
-        print(year, "ist kein Schaltjahr.")
-    elif year % 4 == 0 and year % 100 == 0:
-        print(year, "ist kein Schaltjahr.")
-    elif year % 4 == 0 and year % 100 != 0:
-        print(year, "ist ein Schaltjahr.")
-else:
-    print(year, "ist kein Schaltjahr.")
-        
+# number guessing
+from random import *
+guess = 0
+# define a number
+computernum = randint(1, 1000)
+# game loop
+while (guess != computernum):
+    #read number
+    guess = int(input("Guess a number:"))
+    #evaluate number
+    if guess == computernum:
+        print("Correct!")
+    elif guess < computernum:
+        print("guess too low")
+    elif guess > computernum:
+        print("guess too high")

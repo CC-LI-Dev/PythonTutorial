@@ -3,7 +3,7 @@ import math
 pen = Turtle()
 pen.pencolor("green")
 pen.speed(0)
-runtime = 20
+runtime = 14
 magnitude = 5
 
 def fibongui(runtime):
