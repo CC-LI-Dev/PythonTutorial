@@ -1,3 +1,4 @@
+import random
 test = "Der Mann geht nach Hause um sein Mittag einzunehmen. Er wird von seinem Hund begrüßt. Die Frau kommt etwas später von der Arbeit."
 count = 0
 letter = input("Geben sie einen Buchstaben zum Zählen an:")
@@ -18,5 +19,22 @@ for k in test:
 
 print(count_word)
 
-for l in test:
-    if l == "ä" 
+output = []
+userinput_list = []
+
+
+def secretcode(userinput):
+    j = 0
+    userinput = userinput.replace(" ", "")
+    for i in range(len(userinput)):
+        userinput_list.append(userinput[i])
+    for i in range(0, len(userinput_list)):
+        if random.randint(1, 2) == 2:
+            userinput_list.insert(i+j, " ")
+        j = j+1
+    output = "".join(userinput_list)        
+    print(output)
+
+secretcode(test)
+
+
