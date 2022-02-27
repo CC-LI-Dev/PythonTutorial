@@ -2,7 +2,7 @@
 from random import *
 guess = 0
 # define a number
-computernum = randint(1, 1000)
+computernum = randint(1, 100)
 # game loop
 while (guess != computernum):
     #read number

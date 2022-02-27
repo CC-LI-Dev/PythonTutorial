@@ -250,7 +250,7 @@ while N > 0:
     I.insert(0,G)
     N = N-1
 
-# REplacing of every number & special character
+# Replacing of every number & special character
 linearsearch(I, symbol1)
 linearsearch(I, symbol2)
 linearsearch(I, symbol3)
