@@ -1,16 +1,6 @@
-# number guessing
-from random import *
-guess = 0
-# define a number
-computernum = randint(1, 100)
-# game loop
-while (guess != computernum):
-    #read number
-    guess = int(input("Guess a number:"))
-    #evaluate number
-    if guess == computernum:
-        print("Correct!")
-    elif guess < computernum:
-        print("guess too low")
-    elif guess > computernum:
-        print("guess too high")
+userinput = input("Geben sie ein/en Satz/Wort zur Überprüfung ein:")
+userinput = userinput.replace(" ", "")
+userinput = userinput.lower()
+userinput_rev = userinput[::-1]
+if userinput == userinput_rev:
+    print("Der/Das Satz/Wort ist ein Palindrom.")
