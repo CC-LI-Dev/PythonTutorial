@@ -1,5 +1,5 @@
 import random
-test = "Der Mann geht nach Hause um sein Mittag einzunehmen. Er wird von seinem Hund begrüßt. Die Frau kommt etwas später von der Arbeit."
+test = input("Geben sie einen Satz ein:")
 count = 0
 letter = input("Geben sie einen Buchstaben zum Zählen an:")
 letter_upper = letter.upper()
@@ -12,7 +12,7 @@ count_word = 0
 space = " "
 test.strip()
 test = test+" "
-
+test = test.replace("  ", " ")
 for k in test:
     if k == space:
         count_word = count_word+1
@@ -38,3 +38,9 @@ def secretcode(userinput):
 secretcode(test)
 
 
+test = test.replace("ä", "ae")
+test = test.replace("ö", "oe")
+test = test.replace("ü", "ue")
+test = test.replace("ß", "ss")
+
+print(test)

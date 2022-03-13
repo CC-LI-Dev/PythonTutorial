@@ -1,4 +1,4 @@
-userinput = input("Geben sie ein/en Satz/Wort zur Überprüfung ein:")
+userinput = input("Geben sie ein/en Satz/Wort ohne Punkt zur Überprüfung ein:")
 userinput = userinput.replace(" ", "")
 userinput = userinput.lower()
 userinput_rev = userinput[::-1]
