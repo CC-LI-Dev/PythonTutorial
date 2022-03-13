@@ -22,7 +22,7 @@ for i in range(len(text)):
         swap = sorted_list.pop(1)
         sorted_list.append(swap)
     index_key = sorted_list.index(key[i])
-    encoded_text.append(sorted_list[index_key+index_text])
+    encoded_text.append(sorted_list[index_key+index_text-1])
     index_key = 0
     index_text = 0
 
