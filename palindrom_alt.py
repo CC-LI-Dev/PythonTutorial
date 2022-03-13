@@ -1,10 +1,14 @@
-number = 100000
+# initialisation of output list
+
 palindrome_list = []
-while number < 999999:
-    if str(number)[5:1:-1] == str(number)[2:6] and str(number+1)[5:0:-1] == str(number+1)[1:6] and str(number+2)[4:0:-1] == str(number+2)[1:5] and str(number+3)[::-1] == str(number+3):
-        palindrome_list.append(number)
-        number = number+1
-    else:
-        number = number+1
+
+# main loop
+
+for i in range(1, 999999):
+    # testing of cases
+    if str(i).zfill(6)[5:1:-1] == str(i).zfill(6)[2:6] and str(i+1).zfill(6)[5:0:-1] == str(i+1).zfill(6)[1:6] and str(i+2).zfill(6)[4:0:-1] == str(i+2).zfill(6)[1:5] and str(i+3).zfill(6)[::-1] == str(i+3).zfill(6):
+        palindrome_list.append(i)
     
-print(palindrome_list)
+# output
+
+print("Possible palindromes are:", palindrome_list)
