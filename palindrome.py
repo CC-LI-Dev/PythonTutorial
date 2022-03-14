@@ -1,3 +1,5 @@
+from time import *
+anfang = time()
 # initialisation of output list
 
 palindrome_list = []
@@ -32,3 +34,7 @@ for i in range(1, 999999):
 # output
 
 print("Possible palindromes are:",palindrome_list)
+
+ende = time()
+
+print(ende-anfang)

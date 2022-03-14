@@ -43,8 +43,8 @@ input_encoded_text = input("Geben sie ihren kodierten Text ein:")
 
 # redefintion of key
 
-key_encoded = key_encoded*len(text)
-key_encoded = key_encoded[:len(text)]
+key_encoded = key_encoded*len(input_encoded_text)
+key_encoded = key_encoded[:len(input_encoded_text)]
 
 # decoding
 
