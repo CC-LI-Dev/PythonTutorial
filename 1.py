@@ -1,7 +1,7 @@
 from random import *
 birthd = []
 doubles = 0
-a = 100000
+a = 1000000
 occurences = 0
 
 for i in range(1, a):
