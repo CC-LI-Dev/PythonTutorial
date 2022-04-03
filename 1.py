@@ -1,18 +1,15 @@
-from random import *
-birthd = []
-doubles = 0
-a = 1000000
-occurences = 0
+from cProfile import run
 
-for i in range(1, a):
-    for j in range(0, 23):
-        birthd.append(randint(0, 365))
-    for k in range(0, 365):
-        if birthd.count(k) > 1:
-            doubles = doubles+1
-    if doubles > 0:
-        occurences = occurences+1
-    birthd.clear()
 
-probability = occurences/a
-print(probability)
+hi_num = int(input("Geben Sie die höchste Zahl (numerisch) an:"))
+num_list = []
+run = 2
+for i in range(2, hi_num):
+	num_list.append(i+1)
+while run < hi_num:
+    num_list = [item for item in num_list if item % run != 0 or item == run]
+    run = run+1
+print(num_list)
+
+
+
