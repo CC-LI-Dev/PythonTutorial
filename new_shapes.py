@@ -17,10 +17,8 @@ def polygon_tri_draw(n, a):
         fd(s)
         goto(0,0)
         seth(0)
-        #reset()
         lt(deg_tri*num_of_turns)
         num_of_turns += 1
-
 
         #fd(a)
         #lt(180-deg_s)
@@ -36,9 +34,9 @@ def polygon_tri_draw(n, a):
         #fd(s)
         #lt(180)
         #lt(deg_tri)
-    a_len = a + 20
-    n_up = n  
+    #a_len = a + 20
+    #n_up = n  
 
-    polygon_tri_draw(n_up,a_len)        
+    #polygon_tri_draw(n_up,a_len)        
 
-polygon_tri_draw(5, 100)
+polygon_tri_draw(12, 100)
