@@ -1,6 +1,6 @@
 from turtle import *
 from math import *
-speed(10)
+speed(5)
 bgcolor("black")
 color("red")
 x = 0
@@ -57,4 +57,4 @@ def nagram(n, a):
         rt(180-deg_nagram)
 
         
-nagram(1, 350)
+nagram(8, 350)
