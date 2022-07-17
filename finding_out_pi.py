@@ -8,9 +8,8 @@ n = 200
 x = 1/n
 top_sum = 0
 bottom_sum = 0
-def function_of_cricle(step_n, color_of_turtle):
-    new_x = step_n/n
-    y = sqrt(1-new_x**2)
+def function_of_cricle(step_n, color_of_turtle): 
+    y = sqrt(1-(step_n/n)**2)
 
     if color_of_turtle == True:
         color("red")
