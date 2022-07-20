@@ -1,4 +1,5 @@
 from array import array
+from curses import newwin
 from random import *
 
 
