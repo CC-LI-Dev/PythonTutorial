@@ -1,4 +1,4 @@
-from dis import dis
+
 from turtle import *
 speed(0)
 def rek(dist, depth):
@@ -8,17 +8,22 @@ def rek(dist, depth):
         fd(dist)
         rek(dist/2, depth-1)
         backward(dist)
-        lt(120)
+        lt(90)
 
         fd(dist)
         rek(dist/2, depth-1)
         backward(dist)
-        lt(120)
+        lt(90)
 
         fd(dist)
         rek(dist/2, depth-1)
         backward(dist)
-        lt(120)
+        lt(90)
+
+        fd(dist)
+        rek(dist/2, depth-1)
+        backward(dist)
+        lt(90)
 
       
 rek(50, 5)
