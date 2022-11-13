@@ -15,4 +15,4 @@ def rek(depth, s):
         
 
 lt(90)
-rek(5, 200)
+rek(9, 200)

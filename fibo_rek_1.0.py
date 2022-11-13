@@ -15,7 +15,7 @@ def fib(n, rek_list):
     if n <= 2:
         return 1
     else:
-        if len(rek_list) == n+2:
+        if len(rek_list) == n+2 or len(rek_list) == n+1:
             return rek_list[n]
         else:
             x = fib(n-1, rek_list)+fib(n-2, rek_list)
@@ -23,7 +23,7 @@ def fib(n, rek_list):
             return x
             
 # function call and print
-print(fib(10000, rek_list))
+print(fib(20, rek_list))
 #print(rek_list)
 
 #time end

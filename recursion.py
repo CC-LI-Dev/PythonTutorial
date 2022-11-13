@@ -8,12 +8,12 @@ def rek(dist, depth):
         fd(dist)
         rek(dist/2, depth-1)
         backward(dist)
-        lt(180)
+        lt(120)
 
         fd(dist)
         rek(dist/2, depth-1)
         backward(dist)
-        lt(180)
+        lt(120)
 
         fd(dist)
         rek(dist/2, depth-1)
@@ -26,4 +26,4 @@ def rek(dist, depth):
         #lt(90)
 
       
-rek(50, 5)
+rek(500, 5)
