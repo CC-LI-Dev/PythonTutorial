@@ -1,4 +1,4 @@
-from cProfile import run
+#from cProfile import run
 
 
 hi_num = int(input("Geben Sie die höchste Zahl (numerisch) an:"))
